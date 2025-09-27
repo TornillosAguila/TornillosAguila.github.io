@@ -187,6 +187,15 @@
                   <button class="btn" id="btn-27" data-action="accion-21">VictoryNox <small></small></button>
                   <button class="btn" id="btn-28" data-action="accion-22">Winled <small></small></button>
           </div>
+        <script>
+  // Mostrar / ocultar submenú con clic en "Marcas"
+  const btnMarcas = document.getElementById("btn-marcas");
+  const submenuMarcas = document.getElementById("submenu-marcas");
+
+  btnMarcas.addEventListener("click", () => {
+    submenuMarcas.style.display = submenuMarcas.style.display === "none" ? "block" : "none";
+  });
+</script>
 
       </section>
 
