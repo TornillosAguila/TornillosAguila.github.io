@@ -196,6 +196,25 @@
                   <button class="btn" id="btn-36" data-action="accion-22">Purifcadores <small></small></button>
                   <button class="btn" id="btn-37" data-action="accion-22">Sistemas de Presion <small></small></button>  
                   <button class="btn" id="btn-38" data-action="accion-22">Smart Saver <small></small></button>
+
+          <style>
+  /* Todos los submenús con el mismo formato */
+  .submenu {
+    display: none;         /* oculto al inicio */
+    margin-left: 20px;     /* separación lateral */
+    width: 220px;          /* 🔹 mismo tamaño para todos */
+    
+    display: flex;         
+    flex-direction: column;
+    gap: 6px;              /* espacio uniforme entre botones */
+  }
+
+  /* Botones dentro del submenú */
+  .submenu .btn {
+    width: 100%;           /* se adaptan al ancho del submenú */
+    text-align: left;      /* alineación del texto */
+  }
+</style>
                   
           </div>
         <script>
